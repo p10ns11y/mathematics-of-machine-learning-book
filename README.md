@@ -83,8 +83,9 @@ PhD mathematician turned ML engineer Tivadar Danka—known for his intuitive tea
   You can run these Jupyter notebooks on remotely on cloud platforms like Google Colab, or locally on your machine. If you decide to run them virtually, you should create a virtual environment first:
 
 ```
-virtualenv .venv
+python -m venv .venv
 ```
+The above command uses built-in `venv` python module. The `venv` module is the recommended way to create virtual environments in modern Python (3.3+), and it's already included with your `Python` installation.
 
 After the enviromnment is created, activate it and install the required Python packages.
 
